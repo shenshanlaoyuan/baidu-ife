@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义checkbox，radio样式</title>
+    <style>
+        #label{
+            color: red;
+        }
+        #checkbox{
+
+        }
+        #radio::before {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<label id="label">
+    <input type="radio" id="radio" checked />
+    <input type="checkbox" id="checkbox" checked />
+</label>
+</body>
+</html>
