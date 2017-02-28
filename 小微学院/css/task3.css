@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;
+}
+.team{
+    background: #eeeeee;
+    border: 1px solid #999;
+    padding: 20px;
+    height: 400px;
+}
+.left{
+    width: 200px;
+    position: absolute;top: 20px;left: 20px;
+    background: white;
+}
+.left img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.body{
+    margin: 0 240px;
+    background: white;
+}
+.right{
+    width: 120px;
+    background: white;
+    position: absolute;top: 20px;right: 20px;
+}
+.right ul{
+    list-style: none;
+}
+.right ul li img{
+    width: 80px;
+    height: 80px;
+}

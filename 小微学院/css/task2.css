@@ -32,6 +32,8 @@ header ul li a{
     color: white;
     font-size: 8px;
     text-decoration: none;
+    margin:auto;
+    float: right;
 }
 
 article, aside ,section{
